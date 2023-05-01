@@ -1,0 +1,160 @@
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* IA da pagina */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilizaçao da estrutura da pagina */
+body {
+  font-size: 16px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-image: url(https://i.ibb.co/ccSqPHG/Template.png);
+  background-color: rgb(97, 179, 26);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Estilização do menu de navegação */
+#navegacao {
+  background-image: url(https://i.ibb.co/6vmKNNy/menu.jpg);
+  border-bottom: 1px solid #61b31a;
+  border-radius: 0px 0px 16px 0px;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  top: 0;
+}
+
+#menu {
+  left: right;
+  padding: 10px;
+}
+/*Estilização dos links*/
+a {
+  text-decoration: none;
+  padding: 0.6rem;
+  position: relative;
+  left: -1%;
+  font-weight: bolder;
+  font-size: large;
+}
+/*Links não visitados*/
+a:link {
+  color: #000000;
+}
+/*Links vistados*/
+a:visited {
+  color: #000000;
+}
+/*Links hover*/
+a:hover {
+  color: #fff;
+  background: rgba(97, 179, 26, 0.726);
+}
+/*Links active*/
+a:active {
+  color: #535353;
+}
+
+/* Posicionamento da logo */
+#logo {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 91%;
+}
+#logo1 {
+  position: fixed;
+  width: 150px;
+  height: 50px;
+  top: 2px;
+  left: 76%;
+}
+
+/* Posicionamento area de postagem */
+#area {
+  width: 720px;
+  margin: 0 auto;
+}
+#area-principal {
+  width: 720px;
+  margin: 55px auto 10px auto;
+}
+/* Estilização da area de postagem */
+#postagem {
+  background: rgb(255, 254, 254);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+h2 {
+  color: #61b31a;
+}
+/*Classes*/
+.verde {
+  color: #b9c941;
+}
+.data-postagem {
+  font-size: 14px;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.img-postagem {
+  float: left;
+  margin: 0 10px 5px 0;
+}
+.postado {
+  font: 400 1rem 'DM Sans', sans-serif;
+  border-left: 5px solid #d8d8d8;
+  color: var(--text-color);
+  padding-left: 5px;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Estilização do rodapé */
+#myFooter {
+  background-color: #ffffff;
+  border-radius: 0px 16px 0px 0px;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 32px;
+  height: 100px;
+}
+#myFooter a {
+  font-size: 18px;
+}
+#myFooter li {
+  display: inline-block;
+  margin: 0px 15px;
+  line-height: 2;
+}
+
+#ceet {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  right: 300px;
+  top: -80px;
+}
+#iraja {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  right: 470px;
+  top: -80px;
+}
+#pensi{
+  background-color: #61b31a;
+  width: 100%;
+}
